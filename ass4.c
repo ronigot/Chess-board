@@ -1,9 +1,3 @@
-/*************
-* Roni Gotlib
-* 322805029
-* 01
-* ass4
-*************/
 #include<ctype.h>
 #include<assert.h>
 #include<stdio.h>
@@ -770,7 +764,7 @@ void changeBoard(char board[][SIZE], Move* moveI)
 *Input: char board[][SIZE], char pgn[], int isWhiteTurn
 *Output: int- boolean value
 *Function Operation: The function checks whether a move is valid.
-  If so, carry it out
+Â  If so, carry it out
 ******************/
 int makeMove(char board[][SIZE], char pgn[], int isWhiteTurn)
 {
